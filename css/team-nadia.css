@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .mi-main {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-image: unset;
+}
+
+body .mi-main h2 {
+  text-align: center;
+  color: #6dbf1c;
+  margin-bottom: 2rem;
+}
+
+body .mi-main #iva img {
+  width: 30vw;
+  height: 30vw;
+  border: 2px solid #6dbf1c;
+  border-radius: 56%;
+  margin-left: 7rem;
+  margin-top: 5rem;
+  -webkit-box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+body .mi-main p {
+  text-align: left;
+}
+
+body p {
+  text-align: left;
+}
+
+body #iva img {
+  width: 15vw;
+  height: 15vw;
+  border: 2px solid white;
+  border-radius: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 2px #0B173C;
+          box-shadow: 2px 2px 5px 2px #0B173C;
+  border: 1px solid var(--white-color);
+  margin-right: 7rem;
+}
+
+body #backButton {
+  margin-bottom: 4rem;
+}
+
+body #logo {
+  margin-bottom: 4rem;
+}
+
+body #area-3 {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+body #area-3 img {
+  width: 20vw;
+  height: 20vw;
+  border: 2px solid white;
+  border-radius: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 2px #0B173C;
+          box-shadow: 2px 2px 5px 2px #0B173C;
+  border: 1px solid var(--white-color);
+}
+
+.title h3 {
+  text-align: center;
+  color: #6dbf1c;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+@media only screen and (max-width: 991px) {
+  body .mi-main #iva img {
+    margin-top: unset;
+    margin-left: unset;
+    padding-right: unset;
+    margin-right: unset;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body .mi-main #iva img {
+    margin-top: unset;
+    margin-left: unset;
+    padding-right: unset;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+  body #area-3 img {
+    width: 100%;
+    height: 35vw;
+    margin-top: 2rem;
+  }
+  body p {
+    padding: unset;
+    text-align: left;
+    margin-top: 1rem;
+  }
+  body .title h3 {
+    margin-bottom: unset;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  body .mi-main #iva img {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+    margin-left: unset;
+    padding-right: unset;
+    margin-right: 2rem;
+  }
+  body #area-3 img {
+    width: 100%;
+    height: 60vw;
+    margin-top: 2rem;
+  }
+  body .mi-main p {
+    padding: unset;
+    text-align: left;
+  }
+  body .title h3 {
+    margin-bottom: unset;
+  }
+}
+/*# sourceMappingURL=team-nadia.css.map */

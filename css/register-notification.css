@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: white;
+}
+
+body h2 {
+  color: #6dbf1c;
+  font-size: 2.5rem;
+}
+
+body #welcome {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+body a {
+  color: #a0348e;
+}
+
+body #backButton {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+body h3 {
+  color: #a0348e;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+body #firstItem {
+  margin-top: 2rem;
+}
+
+body h5 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=register-notification.css.map */

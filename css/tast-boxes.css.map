@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,yEAAI;AAEZ,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC",
+    "sources": [
+        "tast-boxes.scss"
+    ],
+    "names": [],
+    "file": "tast-boxes.css"
+}

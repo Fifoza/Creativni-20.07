@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .mi-main {
+  background-image: url(../images/DarkGreenBackground1520-2.jpg);
+}
+
+body .mi-container {
+  height: 40rem;
+  padding: 8rem;
+  border: 2px solid darkblue;
+  margin: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .mi-container img.mi-personal {
+  width: 250px;
+  height: 250px;
+  border: 2px solid darkgreen;
+  border-radius: 15px;
+}
+
+body .mi-container div.mi-info h2.mi-title {
+  font-size: 20px;
+  color: #6dbf1c;
+  margin-left: 10rem;
+  text-align: center;
+}
+
+body .mi-container div.mi-info h3.mi-art {
+  color: #092514;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10rem;
+}
+/*# sourceMappingURL=creatorProffile.css.map */

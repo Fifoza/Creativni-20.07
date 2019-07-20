@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .mi-main {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-image: unset;
+}
+
+body .mi-main h2 {
+  text-align: center;
+  color: #6dbf1c;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+body .mi-main h3 {
+  color: #092514;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+body .mi-main h1 {
+  color: #6dbf1c;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+body .mi-main p {
+  margin: 0 auto;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+body .mi-main a {
+  color: #092514;
+}
+
+body .mi-main a:hover {
+  color: #6dbf1c;
+}
+
+body .mi-main h4 {
+  text-align: center;
+  /* color: rgb(160, 52, 142);*/
+  font-size: 1.5rem;
+}
+
+body .mi-main .mi-column-for-desktop {
+  padding: 2rem;
+}
+
+body #ourTeam {
+  text-align: left;
+}
+
+body #logo {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 767.98px) {
+  body .mi-main h1 {
+    font-size: 2rem;
+  }
+  body .mi-main h2 {
+    font-size: 1rem;
+  }
+  body .mi-main h3 {
+    font-size: 1.2rem;
+  }
+  body .mi-main p {
+    padding: unset;
+  }
+  body .mi-main p {
+    padding: unset;
+    margin-top: 1rem;
+    margin-left: unset;
+    margin-right: unset;
+  }
+  body .mi-main h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body .mi-main h1 {
+    font-size: 2rem;
+  }
+  body .mi-main h2 {
+    font-size: 1rem;
+  }
+  body .mi-main h3 {
+    font-size: 1.2rem;
+  }
+  body .mi-main p {
+    padding: unset;
+    margin-top: 1rem;
+    margin-left: unset;
+    margin-right: unset;
+  }
+  body .mi-main h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=our-team.css.map */

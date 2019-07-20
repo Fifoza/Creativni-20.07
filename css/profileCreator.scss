@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body .mi-main {
+
+    background-image: unset;
+
+
+    .picture {
+        width: 20rem;
+        height: 20rem;
+        border: 3px solid #092514;
+        border-radius: 15%;
+        margin: auto;
+        margin-top: 4rem;
+        margin-top: 3rem;
+        box-shadow: 2px 2px 5px 2px #0B173C;
+        border-radius: 5px;
+
+    }
+
+    .mi-column-for-desktop {
+        padding: 3rem;
+        margin-top: 5rem;
+    }
+
+
+    ul:nth-child(2) {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: #092514;
+        }
+
+        a:hover {
+            color: #092514;
+        }
+
+        a {
+            color: #6dbf1c;
+        }
+
+        button {
+            background: #092514;
+            color: #6dbf1c;
+            margin-top: 3rem;
+        }
+
+        button:hover {
+            background: #6dbf1c;
+            color: #092514;
+        }
+    }
+
+    .header {
+        h2 {
+            text-align: center;
+            color: #092514;
+            height: 5rem;
+        }
+    }
+
+    .demo {
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+        margin-left: 2rem;
+        border: 2px solid rgb(129, 122, 25);
+        border-radius: 15%;
+    }
+
+    .demo:hover {
+        width: 200px;
+        height: 200px;
+        opacity: 0.3;
+    }
+
+    .mi-3-columns-for-desktop {
+        padding-left: 7rem;
+        padding-right: 7rem;
+        margin-bottom: 5rem;
+
+        p {
+            text-align: center;
+
+        }
+
+
+        .mi-btn-success {
+
+            background: #092514;
+            color: #6dbf1c;
+            margin-left: 9rem;
+        }
+
+
+        .mi-btn-success:hover {
+            background: #6dbf1c;
+            color: #092514;
+        }
+    }
+
+
+
+}
+
+
+//Body background Dark Theme Colors
+//==============================================
+/*
+body .mi-main {
+    background-image: unset;
+background: #092514;
+
+    .picture {
+        width: 17rem;
+        height: 17rem;
+        border: 3px solid #092514;
+        border-radius: 15%;
+        margin: auto;
+
+    }
+
+    .mi-column-for-desktop {
+        padding: 3rem;
+        margin-top: 5rem;
+    }
+
+
+    ul:nth-child(2) {
+        h2 {
+            font-size: 2.5rem;
+            color: #6dbf1c;
+
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            color:#6dbf1c;
+        }
+
+        a:hover {
+            color: #092514;
+        }
+
+        a, p, li {
+            color: #6dbf1c;
+        }
+
+        button {
+            background: #6dbf1c;
+            color:  #092514;
+            margin-top: 3rem;
+        }
+
+        button:hover {
+            background: #6dbf1c;
+            color: white;
+        }
+    }
+
+    .header {
+        h2 {
+            text-align: center;
+            color: #092514;
+            height: 5rem;
+        }
+    }
+
+    .demo {
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+        margin-left: 2rem;
+        border: 2px solid rgb(129, 122, 25);
+        border-radius: 15%;
+    }
+
+    .demo:hover {
+        width: 200px;
+        height: 200px;
+        opacity: 0.3;
+    }
+
+    .mi-3-columns-for-desktop {
+        padding-left: 7rem;
+        padding-right: 7rem;
+        margin-bottom: 5rem;
+
+        p {
+            text-align: center;
+            color: #6dbf1c;
+
+        }
+
+
+        .mi-btn-success {
+
+            background:#6dbf1c;
+            color: #092514;
+            margin-left: 9rem;
+        }
+
+
+        .mi-btn-success:hover {
+            background: #6dbf1c;
+            color: white;
+        }
+    }
+}
+*/
+body .mi-main .demo {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+.mi-2-columns-for-desktop p {
+    margin-top: 2rem;
+}
+
+.pagination {
+    display: inline-block;
+   
+    margin-bottom: 2rem;
+
+}
+
+.pagination a {
+    color: #6dbf1c;
+    background: #092514;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+
+
+}
+
+.pagination a:hover {
+    background: #6dbf1c;
+    color: #092514;
+}
+
+.rating input {
+    display: none;
+    cursor: pointer;
+}
+
+.rating {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.rating:hover {
+    cursor: pointer;
+}
+
+.rating label {
+
+    background: #092514;
+    width: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.rating label:hover {
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '\f005';
+    font-family: 'fontAwesome';
+    background: white;
+    display: block;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-size: 50px;
+    display: none;
+}
+
+
+.fa-star::before {
+    font-size: 25px;
+    color: #6dbf1c;
+}
+
+.fa-star::after {
+    font-size: 25px;
+    color: #092514;
+}
+
+.rating .fa-star::after {
+    content: '\f005';
+    font-family: 'fontAwesome';
+    background: white;
+    color: red;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    position: absolute;
+    display: block;
+}
+
+.fa-star::after {
+    font-size: 25px;
+    color: #092514;
+}
+
+.rating label:hover:after,
+.rating input:checked {
+    opacity: 1;
+}
+
+
+
+
+body .mi-main #creatorItems {
+    margin-top: 3rem;
+
+
+    img {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        box-shadow: 2px 2px 5px 2px #0B173C;
+        border-radius: 5px;
+
+    }
+}
+
+body .mi-main #creatorItems2 {
+    margin-top: 4rem;
+
+    img {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: 1em;
+        margin-top: 3rem;
+        box-shadow: 2px 2px 5px 2px #0B173C;
+        border-radius: 5px;
+    }
+}
+
+
+body #creatorItems {
+    margin-bottom: 2rem;
+}
+
+body #creatorItems2 {
+    margin-bottom: 3rem;
+}
+
+body #creator{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+   
+}
+body #creatorInfo{
+    text-align: left;
+   a.mi-btn-primary{
+margin-top: 2rem;
+    }
+}
+
+body .mi-main h2{
+  
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+@media (max-width: 1280px) {
+   
+}
+
+
+
+
+@media (max-width: 1109px) {
+ 
+
+}
+
+
+
+@media (max-width: 991.98px) {
+  
+}
+*/
+@media (max-width: 767.98px) {
+    body .mi-main #creatorItems img {
+        width: 25rem;
+        height: 25rem;
+
+    }
+
+    body .mi-main #creatorItems2 img {
+        width: 25rem;
+        height: 25rem;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    body .mi-main #creatorItems img {
+        width: 25rem;
+        height: 25rem;
+
+    }
+
+    body .mi-main #creatorItems2 img {
+        width: 25rem;
+        height: 25rem;
+
+    }
+    body .mi-main #creator .picture{
+        width: 25rem;
+        height: 25rem;
+        margin-top: 3rem;
+        box-shadow: 2px 2px 5px 2px #0B173C;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--rem);
+}
+
+li {
+  list-style: none;
+}
+
+body .mi-main {
+  background-image: var(--main-background-image);
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 575px) {
+}

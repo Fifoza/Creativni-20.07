@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body .mi-main {
+
+    background-image: unset;
+}
+
+body #register {
+    margin-top: 2rem;
+}
+
+body .mi-main h3 {
+    text-align: center;
+    color: #6dbf1c;
+    margin-top: 2rem;
+}
+
+body #logo h2 {
+    color: rgb(160, 52, 142);
+    margin-top: 2rem;
+}
+
+body #registerform {
+    .form-group {
+        color: #6dbf1c;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        p{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    background: #092514;
+    color: #6dbf1c;
+}
+
+body .mi-main #registerForm {
+    width: 70%;
+    background: #6dbf1c;
+    margin: 2rem;
+    margin-left: 14rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+    box-shadow: 5px 5px 15px 5px #0B173C;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  body .mi-main #registerform #mailForm {
+    margin: 8rem auto;
+    padding: 3rem;
+    background: #092514;
+  }
+  
+  body .mi-main #registerform #registerButton {
+    background: #6dbf1c;
+    color: white;
+  }
+  
+  body .mi-main #registerform #registerButton:hover {
+    background: white;
+    color: #092514;
+  }
