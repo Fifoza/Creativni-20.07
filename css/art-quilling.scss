@@ -49,8 +49,8 @@ body p {
 body #art p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
     img {
         width: 15vw;
@@ -107,6 +107,10 @@ body #area-3,
     color: #6dbf1c;
     margin-bottom: 4rem;
     margin-top: 6rem;
+}
+
+body #video{
+    margin-top: 2rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -183,6 +187,12 @@ body #area-3,
     body #area-1{
         margin-top: unset;
     } 
+    body .mi-main{
+        padding: unset;
+    }
+    body .mi-main #art p{
+        padding-left: 1rem;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -252,5 +262,11 @@ body #area-3,
 
     body .mi-main {
         padding-right: unset;
+    }
+    body .mi-main{
+        padding: unset;
+    }
+    body .mi-main #art p{
+        padding-left: 1rem;
     }
 }

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body .mi-main #loginForm {
+    font-family: 'Montserrat', sans-serif;
+    color: #6dbf1c;
+    background: #092514;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+    box-shadow: 3px 3px 12px 3px #0B173C;
+    border-radius: 15px;
+    max-width: unset;
+    width: 70%;
+    padding: 3rem;
+    margin-top: 7rem;
+    text-align: left;
+}
+
+body .mi-main #loginForm h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+body #submit {
+    background: white;
+}
+
+body #submit:hover {
+    color: white;
+    background: #6dbf1c;
+}
+body .mi-main #logo{
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body .mi-main #loginForm {
+        font-family: 'Montserrat', sans-serif;
+        color: #6dbf1c;
+        background: #092514;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+        -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+        box-shadow: 3px 3px 12px 3px #0B173C;
+        border-radius: 15px;
+        max-width: unset;
+        width: 95%;
+        padding: 3rem;
+        margin-top: 3rem;
+        text-align: left;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    body .mi-main #loginForm h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    body .mi-main #submit{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    body .mi-main #loginForm {
+        font-family: 'Montserrat', sans-serif;
+        color: #6dbf1c;
+        background: #092514;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+        -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
+        box-shadow: 3px 3px 12px 3px #0B173C;
+        border-radius: 15px;
+        max-width: unset;
+        width: 95%;
+        padding: 3rem;
+        margin-top: 3rem;
+        text-align: left;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    body .mi-main #loginForm h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    body .mi-main #submit{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+}

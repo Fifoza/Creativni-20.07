@@ -90,6 +90,14 @@ body #backButton {
   margin-top: 1rem;
 }
 
+body #mi-main.fas {
+  color: #6dbf1c;
+}
+
+body #mi-main .fas .fa-check-square {
+  color: #6dbf1c;
+}
+
 @media (max-width: 1280px) {
   body .mi-main {
     background-image: url(../images/DarkGreenBackground1280.jpg);
@@ -166,18 +174,6 @@ body #backButton {
   body .mi-main {
     background-image: url(../images/DarkGreenBackground575.jpg);
     background-image: unset;
-  }
-  .mi-column-for-mobile {
-    margin-left: 4rem;
-    width: 85%;
-  }
-  .mi-column-for-mobile h1,
-  .mi-column-for-mobile .h1 {
-    font-size: 1.3rem;
-  }
-  .mi-column-for-mobile h2,
-  .mi-column-for-mobile .h2 {
-    font-size: 1rem;
   }
   body .mi-main .mi-column-for-mobile .mi-btn-success {
     width: 55%;

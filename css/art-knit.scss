@@ -10,12 +10,6 @@ body .mi-main {
 
     background-image: unset;
 
-    h2 {
-        text-align: center;
-        color: #6dbf1c;
-        margin-bottom: 2rem;
-    }
-
 
     #art {
         margin-top: 2rem;
@@ -109,6 +103,18 @@ body #area-3,
     margin-top: 6rem;
 }
 
+
+body h2{
+    text-align: center;
+    color: #6dbf1c;
+    margin-bottom: 2rem;
+}
+body h1{
+    text-align: center;
+    color: #6dbf1c;
+    margin-bottom: 2rem;
+}
+
 body #video{
     margin-top: 2rem;
 }
@@ -186,7 +192,7 @@ body #video{
     }
     body #area-1{
         margin-top: unset;
-    } 
+    }
     body .mi-main{
         padding: unset;
     }
@@ -260,9 +266,7 @@ body #video{
         margin-bottom: 2rem;
     }
 
-    body .mi-main {
-        padding-right: unset;
-    }
+   
     body .mi-main{
         padding: unset;
     }

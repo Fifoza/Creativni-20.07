@@ -97,6 +97,10 @@ body #area-3 img,
   margin-top: 6rem;
 }
 
+body #video {
+  margin-top: 2rem;
+}
+
 @media only screen and (max-width: 991px) {
   body .mi-main #art img {
     margin-top: unset;
@@ -157,6 +161,12 @@ body #area-3 img,
   body #area-1 {
     margin-top: unset;
   }
+  body .mi-main {
+    padding: unset;
+  }
+  body .mi-main #art p {
+    padding-left: 1rem;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -210,6 +220,12 @@ body #area-3 img,
   }
   body .mi-main {
     padding-right: unset;
+  }
+  body .mi-main {
+    padding: unset;
+  }
+  body .mi-main #art p {
+    padding-left: 1rem;
   }
 }
 /*# sourceMappingURL=art-crochet.css.map */

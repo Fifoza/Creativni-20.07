@@ -29,8 +29,9 @@ body h3 {
   margin-bottom: 2rem;
 }
 
-body #firstItem {
+body .mi-main #firstItem {
   margin-top: 2rem;
+  color: white;
 }
 
 body h5 {

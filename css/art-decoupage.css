@@ -40,7 +40,7 @@ body p {
 
 body #art p {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: unset;
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -228,4 +228,4 @@ body #video {
     padding-left: 1rem;
   }
 }
-/*# sourceMappingURL=art-quilling.css.map */
+/*# sourceMappingURL=art-decoupage.css.map */

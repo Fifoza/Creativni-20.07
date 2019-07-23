@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
-body .mi-main {
+body {
   font-family: 'Montserrat', sans-serif;
-}
-
-body .mi-main {
-  background-image: url(../images/DarkGreenBackground1520-2.jpg);
-  width: 100%;
 }
 
 body .mi-main #loginForm {
@@ -15,12 +10,13 @@ body .mi-main #loginForm {
   margin-top: 5rem;
   margin-bottom: 8rem;
   -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
-  box-shadow: 5px 5px 15px 5px #0B173C;
+  box-shadow: 3px 3px 12px 3px #0B173C;
   border-radius: 15px;
   max-width: unset;
-  width: 60%;
+  width: 70%;
   padding: 3rem;
   margin-top: 7rem;
+  text-align: left;
 }
 
 body .mi-main #loginForm h2 {
@@ -37,112 +33,63 @@ body #submit:hover {
   background: #6dbf1c;
 }
 
-body #horizontalBaner {
-  width: 70%;
-  margin-left: 15rem;
-  margin-bottom: 4rem;
+body .mi-main #logo {
+  margin-bottom: 3rem;
 }
 
-@media (max-width: 1280px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground1280.jpg);
-    width: 100%;
-  }
-  body #horizontalBaner {
-    width: 70%;
-    margin-left: 12rem;
-    margin-bottom: 5rem;
-  }
-}
-
-@media (max-width: 1109px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground1100.jpg);
-  }
-  body #horizontalBaner {
-    width: 70%;
-    margin-left: 10rem;
-    margin-bottom: 5rem;
-  }
-}
-
-@media (max-width: 991.98px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground990.jpg);
-  }
-}
-
-@media (max-width: 767.98px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground760.jpg);
-  }
-  body #horizontalBaner img.img-thumbnail {
-    width: 140px;
-    height: 125px;
-  }
-  body #horizontalBaner {
-    width: 70%;
-    margin-left: 7rem;
-    margin-bottom: 5rem;
-  }
-}
-
-@media (max-width: 575.98px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground575.jpg);
-  }
+@media only screen and (max-width: 768px) {
   body .mi-main #loginForm {
+    font-family: 'Montserrat', sans-serif;
     color: #6dbf1c;
     background: #092514;
     margin-top: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
     -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
-    box-shadow: 5px 5px 15px 5px #0B173C;
+    box-shadow: 3px 3px 12px 3px #0B173C;
     border-radius: 15px;
     max-width: unset;
-    width: 75%;
+    width: 95%;
+    padding: 3rem;
+    margin-top: 3rem;
+    text-align: left;
+    padding-left: unset;
+    padding-right: unset;
   }
-  body .mi-main div.card {
-    margin-left: 1rem;
-    width: 34rem;
+  body .mi-main #loginForm h2 {
+    text-align: center;
+    font-size: 1.2rem;
   }
-  body .mi-main div.card {
-    height: 295px;
+  body .mi-main #submit {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
 
-@media (max-width: 474px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground475.jpg);
-  }
-}
-
-@media (max-width: 400px) {
-  body .mi-main {
-    background-image: url(../images/DarkGreenBackground400.jpg);
-  }
+@media only screen and (max-width: 575px) {
   body .mi-main #loginForm {
+    font-family: 'Montserrat', sans-serif;
     color: #6dbf1c;
     background: #092514;
     margin-top: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
     -webkit-box-shadow: 5px 5px 15px 5px #0B173C;
-    box-shadow: 5px 5px 15px 5px #0B173C;
+    box-shadow: 3px 3px 12px 3px #0B173C;
     border-radius: 15px;
     max-width: unset;
-    width: 75%;
+    width: 95%;
+    padding: 3rem;
+    margin-top: 3rem;
+    text-align: left;
+    padding-left: unset;
+    padding-right: unset;
   }
-  body .mi-main div.card {
-    height: 800px;
-    width: 350px;
-    margin-left: 2rem;
+  body .mi-main #loginForm h2 {
+    text-align: center;
+    font-size: 1.2rem;
   }
-  body #horizontalBaner img.img-thumbnail {
-    width: 240px;
-    height: 190px;
-  }
-  .btn {
-    font-size: 0.9rem;
+  body .mi-main #submit {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=login.css.map */

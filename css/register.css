@@ -9,6 +9,7 @@ body .mi-main {
 
 body #register {
   margin-top: 2rem;
+  margin-bottom: 6rem;
 }
 
 body .mi-main h3 {
@@ -58,10 +59,51 @@ body .mi-main #registerform #mailForm {
 body .mi-main #registerform #registerButton {
   background: #6dbf1c;
   color: white;
+  margin-top: 2rem;
 }
 
 body .mi-main #registerform #registerButton:hover {
   background: white;
   color: #092514;
+}
+
+body #registerform {
+  background: #092514;
+  color: #6dbf1c;
+  border-radius: 15px;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #6dbf1c;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #6dbf1c;
+}
+
+body #registerform .form-group {
+  color: #6dbf1c;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid;
+}
+
+.form-check {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+body .form-control {
+  margin-bottom: 2rem;
+}
+
+body #registerform {
+  -webkit-box-shadow: 2px 2px 5px 2px #0B173C;
+          box-shadow: 2px 2px 5px 2px #0B173C;
+}
+
+body #backButton {
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=register.css.map */

@@ -48,9 +48,9 @@ body p {
 
 body #art p {
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-bottom: unset;
+    padding-left: 5rem;
+    padding-right: 5rem;
 
     img {
         width: 15vw;
@@ -108,7 +108,6 @@ body #area-3,
     margin-bottom: 4rem;
     margin-top: 6rem;
 }
-
 body #video{
     margin-top: 2rem;
 }

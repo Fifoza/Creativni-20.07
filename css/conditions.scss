@@ -104,10 +104,13 @@ body #backButton{
     margin-top: 1rem;
 }
 
+body #mi-main.fas{
+color: #6dbf1c;
+}
 
-
-
-
+body #mi-main .fas .fa-check-square{
+    color: #6dbf1c;
+}
 
 
 @media (max-width: 1280px) {
@@ -210,22 +213,7 @@ body #backButton{
         background-image: unset;
     }
 
-    .mi-column-for-mobile {
-
-        margin-left: 4rem;
-        width: 85%;
-
-        h1,
-        .h1 {
-            font-size: 1.3rem;
-        }
-
-        h2,
-        .h2 {
-            font-size: 1rem;
-
-        }
-    }
+    
 
     body .mi-main .mi-column-for-mobile .mi-btn-success {
         width: 55%;
