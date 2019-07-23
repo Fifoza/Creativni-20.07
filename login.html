@@ -33,7 +33,7 @@
 
     <!--Custom CSS-->
     <!-- тук си слагаш линк за стиловете към съдържанието което ще пишеш. Замени "името_на_css_файла" с името на новият css фаил който ще казва какво става със съдържанието, или ще презаписва някви правила на mi библиотеката -->
-    <link rel="stylesheet" type="text/css" href="./css/register-notification.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
 
     <link rel="stylesheet" href="./css/main/footer.css">
 
@@ -97,27 +97,27 @@
                 <!-- Когато е логнат СТАРТ-->
 
                 <!--<li>
-                      <button class="mi-dropdown-nav">Примерно име
-                          <i class="fa fa-caret-down"></i>
-                          <div class="mi-dropdown-content-nav">
-                              <a href="#">Моят Профил</a>
-                              <a href="#">Настройки</a>
-                          </div>
-                      </button>
-                  </li>
-  
-                  <li>
-                      <a class="mi-btn-nav" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Изход</a>
-                      <form id="logout-form" action="#" method="POST" style="display: none;">
-                          @csrf
-                      </form>
-                  </li>
-                  
-                  <li>
-                      <div>
-                          <a class="mi-btn-nav" href="#">Качи нова творба</a>
-                      </div>
-                  </li>-->
+                         <button class="mi-dropdown-nav">Примерно име
+                             <i class="fa fa-caret-down"></i>
+                             <div class="mi-dropdown-content-nav">
+                                 <a href="#">Моят Профил</a>
+                                 <a href="#">Настройки</a>
+                             </div>
+                         </button>
+                     </li>
+     
+                     <li>
+                         <a class="mi-btn-nav" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Изход</a>
+                         <form id="logout-form" action="#" method="POST" style="display: none;">
+                             @csrf
+                         </form>
+                     </li>
+                     
+                     <li>
+                         <div>
+                             <a class="mi-btn-nav" href="#">Качи нова творба</a>
+                         </div>
+                     </li>-->
 
                 <!-- Когато е логнат КРАЙ-->
 
@@ -158,56 +158,88 @@
         <!-- Тук приключва перфектният хедър -->
 
         <main class="mi-main">
+            <!-- Ей тука пишеш нужното за тази страница. Ако работиш по стар файл, примерно login.html, правиш нов фаил в тази папка, създаваш си login.html, копишаш целият този шаблон вътре в новосъздаденият фаил и слагаш main съдържанието на мястото на Съдаржание... -->
 
-
-
-
-            <div id="welcome"
-                class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
-                <!-- Ей тука пишеш нужното за тази страница. Ако работиш по стар файл, примерно login.html, правиш нов фаил в тази папка, създаваш си login.html, копишаш целият този шаблон вътре в новосъздаденият фаил и слагаш main съдържанието на мястото на Съдаржание... -->
-
-
-
+            <div
+                class="mi-items-center mi-width-100-for-desktop mi-width-95-for-notebook mi-width-95-for-tablet mi-width-100-for-mobile">
                 <div
-                    class="file-upload mi-width-90-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
-                    <h2>Добре дошли в Creativni.com!</h2>
+                    class="mi-width-90-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
 
-                    <h3>Вече сте част от най-голямото творческо семейство в България.</h3>
 
-                    <h4>Надяваме се да се чувствате у дома си в тази платформа и заедно да вървим напред.</h4>
-                    <h4>Платформата има нужда от добри стопани, които да се грижат за своите творби, а те да достигат до
-                        доволните клиенти, които да им се радват от сърце.</h4>
 
-                    <h5>Ако все още не сте го направили, молим да се запознаете с <a href="#">Мисията на платформата</a>
-                        и да спазвате <a href="#">Общите правила.</a></h5>
-                    <h4>Творете, радвайте света и хората около Вас, бъдете позитивни и усмихнати!</h4>
-                    <h3>Нека музата бъде с Вас!</h3>
-                    <div
-                        class="file-upload mi-width-100-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
-                        <img src="images/Logo-New3.png">
+                    <div class="container" id="loginForm">
+                        <h2>Влезте в акаунта си</h2>
+                        <form class="form-horizontal" action="/action_page.php">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="email">Email:</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" placeholder="Въведете имейл">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="pwd" placeholder="Въведете парола">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox"> Запомни ме</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn" id="submit">Влез</button>
 
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn" id="submit">Забравена парола</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
 
 
+                </div>
+            </div>
 
 
 
+
+
+
+
+            <div id="backButton"
+                class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+
+                <a href="#" class="mi-btn-primary">Върнете се в началото</a>
+
+            </div>
+
+
+            <div
+                class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+
+                <div id="logo"
+                    class="mi-width-100-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <img src="images/Logo-New3.png">
 
                 </div>
+            </div>
 
-                <div id="firstItem"
-                    class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
 
-                    <a href="#" class="mi-btn-success">Качете първата си творба</a>
-                </div>
-                <div id="backButton"
-                    class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
 
-                    <a href="#" class="mi-btn-primary">Върнете се в началото</a>
-                </div>
-                <!-- Тук приключва писането по страницата -->
+
+
+
+            <!-- Тук приключва
+                                писането по страницата -->
         </main>
-
 
         <!-- Тук започва перфектният футър -->
         <footer
@@ -306,9 +338,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
     <!-- Тук реферираш нужните javascript за тази страница, ако изобщо има нужда. Замени "името_на_скрипта" с името на новосъздаденият от теб скрипт. Ako са повече скриптове, добавяй ги пак тука. -->
-    <script src="./js/upload-new-item.js"></script>
+    <script src="./js/името_на_скрипта.js"></script>
     <!-- Тук приключват нужните javascript за тази страница -->
 
 </body>
