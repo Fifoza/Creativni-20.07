@@ -75,7 +75,12 @@ body .mi-main #video {
         height: 15rem;
     }
 }
-
+body .mi-main #upPhoto{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #0B173C;
+    border: 1px solid var(--white-color);
+   
+}
 body #backButton {
     margin-bottom: 4rem
 }

@@ -41,8 +41,8 @@ body p {
 body #art p {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 body #art p img {
@@ -235,4 +235,4 @@ body #video {
     padding-left: 1rem;
   }
 }
-/*# sourceMappingURL=art-print.css.map */
+/*# sourceMappingURL=newborn.css.map */
