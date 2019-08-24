@@ -33,7 +33,7 @@
 
     <!--Custom CSS-->
     <!-- тук си слагаш линк за стиловете към съдържанието което ще пишеш. Замени "името_на_css_файла" с името на новият css фаил който ще казва какво става със съдържанието, или ще презаписва някви правила на mi библиотеката -->
-    <link rel="stylesheet" type="text/css" href="./css/conditions.css">
+    <link rel="stylesheet" type="text/css" href="./css/marta.css">
 
     <link rel="stylesheet" href="./css/main/footer.css">
 
@@ -97,27 +97,27 @@
                 <!-- Когато е логнат СТАРТ-->
 
                 <!--<li>
-                     <button class="mi-dropdown-nav">Примерно име
-                         <i class="fa fa-caret-down"></i>
-                         <div class="mi-dropdown-content-nav">
-                             <a href="#">Моят Профил</a>
-                             <a href="#">Настройки</a>
-                         </div>
-                     </button>
-                 </li>
- 
-                 <li>
-                     <a class="mi-btn-nav" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Изход</a>
-                     <form id="logout-form" action="#" method="POST" style="display: none;">
-                         @csrf
-                     </form>
-                 </li>
-                 
-                 <li>
-                     <div>
-                         <a class="mi-btn-nav" href="#">Качи нова творба</a>
-                     </div>
-                 </li>-->
+                       <button class="mi-dropdown-nav">Примерно име
+                           <i class="fa fa-caret-down"></i>
+                           <div class="mi-dropdown-content-nav">
+                               <a href="#">Моят Профил</a>
+                               <a href="#">Настройки</a>
+                           </div>
+                       </button>
+                   </li>
+   
+                   <li>
+                       <a class="mi-btn-nav" href="#" onclick="event.preventDefault();document.getElementById('logout-form').submit();">Изход</a>
+                       <form id="logout-form" action="#" method="POST" style="display: none;">
+                           @csrf
+                       </form>
+                   </li>
+                   
+                   <li>
+                       <div>
+                           <a class="mi-btn-nav" href="#">Качи нова творба</a>
+                       </div>
+                   </li>-->
 
                 <!-- Когато е логнат КРАЙ-->
 
@@ -158,94 +158,154 @@
         <!-- Тук приключва перфектният хедър -->
 
         <main class="mi-main">
+
+            <h1>Баба Марта</h1>
             <div
-                class="mi-items-around mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+                class="mi-items-center mi-width-100-for-desktop mi-width-95-for-notebook mi-width-95-for-tablet mi-width-100-for-mobile">
+                <div
+                    class="mi-width-90-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
 
 
-                <div id="conditions"
-                    class="mi-width-60-for-desktop mi-width-80-for-notebook mi-width-90-for-tablet mi-width-100-for-mobile">
+                    <div>
+
+                        <div
+                            class="mi-width-100-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                            <img id="upPhoto" src="images/marta3.jpg" alt=""></a>
 
 
-
-                    <h1>Условия за ползване на Creativni.com</h1>
-                    <h2> В този сайт НЕ се извършват продажби на
-                        продукти под никаква форма.</h2>
-                    <p><i class="fas fa-check-square"></i>
-                        Платформата <b>Creativni.com</b> е направена с цел да среща творците с техните
-                        потенциални клиенти.
-                    </p>
-                    <p><i class="fas fa-check-square"></i> Всеки регистриран потребител отговаря за своя профил и
-                        има право да качва
-                        на сайта продукти и техните описания, като няма право да обявява цени.
-
-                    </p>
-
-                    <p><i class="fas fa-check-square"></i> Потребителите на сайта могат да влизат и да разглеждат
-                        профилите на Творците.
-                        Могат също така да оценяват както отделните творби, така и творците.
-                    </p>
-                    <p><i class="fas fa-check-square"></i> Творците следва да се грижат за статута на произведенията си.
-                        Да следят и актуализират за това дали даден продукт е Наличен, Продаден или може да бъде
-                        изработен
-                        по Поръчка.
-                    </p>
-
-                    <p><i class="fas fa-check-square"></i> При желание от страна на потребител да се свърже с
-                        Творец, може да използва опцията "Лично
-                        съобщение".
-                        Съобщения могат да изпращат и да получават само регистрирани в сайта потребители.</p>
-                    <p><i class="fas fa-check-square"></i> Регистрираните творци могат да поставят линкове
-                        към техните лични сайтове или Facebook страници, като е <b>желателно</b> да поставят реципрочен
-                        линк
-                        към платформата <b>Creativni.com</b> </p>
-                    <p><i class="fas fa-check-square"></i> Съдържанието на личните съобщения и данните за
-                        продукти
-                        и творби е отговорност на създателите им.</p>
-
-
-                        <p><i class="fas fa-check-square"></i> В категория <b>"Детски играчки"</b> продуктите
-                                <b>задължително</b>
-                                трябва да са проверени на първо място за Безопасност на изделието. Преди да качите
-                                продукт се уверете,
-                                че няма малки и опасни елементи, които могат да представляват опасност за деца.
-                                Качеството е на първо място в
-                                платформата <b>Creativni.com</b></p>
-
-                    <p><i class="fas fa-check-square"></i> Забранява се качването на продукти, които <b>Не</b> са ваше
-                        дело.
-                    </p>
-                    <p><i class="fas fa-check-square"></i> <b>При доказване на качени продукти, неотговарящи на
-                            условията на
-                            платформата Creativni.com,
-                            администраторите имат право да ограничат или блокират акаунта, както и да премахнат
-                            продуктите.</b>
-                    </p>
-
-                    <h3><b> ВАЖНО - Администраторите на този сайт НЕ носят под никаква форма
-                            отговорност
-                            за качените снимки на продукти.
-                            Отговорност за това носят само и единствено потребителите, които са ги качили.</b>
-                    </h3>
-
-
-
-     
-
-                    <div class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
-
-                        <a href="#" class="mi-btn-primary">Завършете регистрацията си</a>
+                        </div>
                     </div>
-
-                    <div id="backButton"
-                    class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
-
-                    <a href="#" class="mi-btn-primary">Върнете се в началото</a>
                 </div>
 
+
+
+                <div id="art"
+                    class="mi-items-around mi-width-100-for-desktop mi-width-95-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+
+
+
+                    <div
+                        class="mi-width-80-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+
+
+
+
+                        <p>Мартеницата, известна също като мартинка, марта, мартичка, гадалушка, кичилка, е обредна
+                            украса от усукани конци, които се слагат на 1 март за здраве. Мартеницата е малко украшение,
+                            изработва се предимно от вълнена или памучна прежда в два основни цвята ­– бяла и червена, с
+                            което българите се закичват всяка година на 1 март – празника Баба Марта. Номинирана от
+                            България, Македония, Молдова и Румъния и вписана в представителния списък на ЮНЕСКО за
+                            елементи на нематериалното културно наследство на човечеството.
+
+                        </p>
+                        <p>Баба Марта е митичен персонаж в българския фолклор. В народните вярвания, представени в
+                            пословици и приказки, името ѝ е свързано с името на месец „март“. Три са месеците, които са
+                            персонифицирани в българските митични представи – януари, февруари и март. Януари и февруари
+                            са представени като братя с лют характер – Голям Сечко и Малък Сечко. Баба Марта се смята за
+                            тяхна сестра, която ту е усмихната и добронамерена, ту непредвидимо зла.
+
+                            С Баба Марта и месец март се свързват много обичаи и празници, посветени на идващата пролет.
+                            Най-известният обичай, свързан с Баба Марта, е закичването на хора и млади животни с
+                            Мартеница (усукани бяла и червена нишка) на 1 март – деня на пристигането на Баба Марта.
+                            През целия месец се извършват обреди за гонене на змии и гущери, както и гадания, свързани с
+                            някои прелетни птици. </p>
+
+
+                        <p></p>
+                        <p>Творците в <a href="#">Creativni.com</a> могат да предложат невероятно разнообразие от модели и варианти на мартеници.</p>
+                        <h3>Вземете си мартеничка и бъдете здрави!</h3>
+                        
+                    </div>
+                </div>
+                <div id="video"
+                    class="mi-items-center mi-width-100-for-desktop mi-width-95-for-notebook mi-width-95-for-tablet mi-width-100-for-mobile">
+
+
+                    <iframe width="789" height="444" src="https://www.youtube.com/embed/JP168PuhfVY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="title">
+                <h3>Различни изделия и пособия</h3>
+            </div>
+
+
+
+
+
+            <div id="area-1"
+                class="mi-items-around mi-width-100-for-desktop mi-width-100-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+
+
+                </div>
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+                </div>
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+                </div>
+            </div>
+
+
+            <div id="area-2"
+                class="mi-items-around mi-width-100-for-desktop mi-width-100-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+                </div>
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+                </div>
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
                 </div>
 
 
             </div>
+
+            <div id="area-3"
+                class="mi-items-around mi-width-100-for-desktop mi-width-100-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+                </div>
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"> <img src="images/marta3.jpg" alt=""></a>
+                </div>
+                <div
+                    class="mi-width-30-for-desktop mi-width-30-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
+                    <a href="#"><img src="images/marta3.jpg" alt=""></a>
+                </div>
+
+            </div>
+
+
+
+
+            <div id="backButton"
+                class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
+
+                <a href="#" class="mi-btn-primary">Върнете се в началото</a>
+
+            </div>
+
 
             <div
                 class="mi-items-center mi-width-100-for-desktop mi-width-80-for-notebook mi-width-80-for-tablet mi-width-90-for-mobile">
@@ -254,10 +314,12 @@
                     class="mi-width-100-for-desktop mi-width-100-for-notebook mi-width-100-for-tablet mi-width-100-for-mobile">
                     <img src="images/Logo-New3.png">
 
-                    <h3>Нека музата бъде с вас!</h3>
-
                 </div>
             </div>
+
+
+
+
 
 
         </main>
